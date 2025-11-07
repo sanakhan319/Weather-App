@@ -1,0 +1,36 @@
+body {
+  background-size: cover;
+  background-position: center;
+  transition: 0.6s ease-in-out;
+  background: #a8c7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.weather-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
